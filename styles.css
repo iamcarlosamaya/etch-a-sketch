@@ -1,0 +1,27 @@
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1; */
+    /* align-content: space-around;
+    justify-content: space-around; */
+    /* width: 960px; */
+    width: 960px;
+    height: 720px;
+    /* height:calc(100vh  50px); */
+    align-items: stretch;
+    /* justify-items: stretch; */
+    border: 1px solid #000;
+}
+
+.grid-cell {
+    /* display: flex; */
+    flex: 1 0 auto;
+    /* border: 1px solid #000; */
+    /* width: calc(100%/ 16); */
+    /* height: calc(100% / 16); */
+    box-sizing: border-box;
+}
+/* 
+.grid-cell:hover {
+    background-color: blue;
+} */
